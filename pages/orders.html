@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders Page</title>
+
+    <link rel="stylesheet" href="../style.css">
+
+    
+    <link rel="stylesheet" href="../resources/css/order.css">
+    <link rel="stylesheet" href="../resources/css/navbar.css">
+
+    <link rel="stylesheet" href="../resources/css/navbar.css">
+    <link rel="stylesheet" href="../resources/css/main.css">
+    <link rel="stylesheet" href="../resources/css/customers.css">
+    <link rel="stylesheet" href="../resources/css/services.css">
+
+    <link rel="stylesheet" href="../resources/css/order.css">
+    <link rel="stylesheet" href="../resources/css/footer.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <div class="splash-screen">
+        <img src="../assets/splash-screen.gif" alt="splash screen">
+    </div>
+
+    <section id="navbar" class="navbar">
+        <div class="navbar-brand">
+            <p href="#" id="navbar-brand">
+              <img src="../assets/splash-screen.gif" alt="Logo"/>
+              <p>Garbage Agency</p>
+            </p>
+          </div>
+    
+          <ul class="nav">
+            <div class="close-menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </div>
+            <li class="nav-item"><a href="/">Home</a></li>
+            <li class="nav-item"><a href="/pages/orders.html">Orders</a></li>
+            <li class="nav-item"><a href="/">Customers</a></li>
+            <li class="nav-item"><a href="/">Services</a></li>
+            <li class="nav-item"><a href="/">Footer</a></li>
+          </ul>
+    
+          <div class="auth-section">
+            <div class="nav-button-group">
+              <button class="login-button">Login</button>
+              <i class="vertical-seperator"></i>
+              <button class="reigster-button">Register</button>
+            </div>
+          </div>
+          <div class="hamburger">
+            <ion-icon name="reorder-four-outline"></ion-icon>
+          </div>
+    </section>
+
+    <div id="orders" class="orders">
+        <div class="order" id="order_id">
+          <div class="order_type"><h1>Kitchen Waste Order</h1></div>
+    
+          <div class="content">
+            <div class="left"><i class="fa fa-thin fa-recycle"></i></div>
+            <div class="right">
+              <div class="created_by">
+                <i class="fa fa-thin fa-user"></i><strong>Subas Subedi</strong>
+              </div>
+              <div class="created_date">
+                <i class="fa fa-thin fa-calendar"></i><strong>2022/12/23</strong>
+              </div>
+              <div class="address">
+                <i class="fa fa-thin fa-location-dot"></i
+                ><strong>New Baneswor, Kathmandu</strong>
+              </div>
+              <div class="payment_amount">
+                <i class="fa fa-light fa-indian-rupee-sign"></i>
+                <strong>400</strong>
+              </div>
+              <div class="payment_method">
+                <i class="fa fa-thin fa-money-check-dollar"></i>
+                <strong>Khalti</strong>
+              </div>
+              <button class="collect">Collect Order</button>
+              <div class="trash">
+                <i class="fa fa-light fa-trash-can" id="delete"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="order" id="order_id">
+          <div class="order_type"><h1>Kitchen Waste Order</h1></div>
+    
+          <div class="content">
+            <div class="left"><i class="fa fa-thin fa-recycle"></i></div>
+            <div class="right">
+              <div class="created_by">
+                <i class="fa fa-thin fa-user"></i><strong>Subas Subedi</strong>
+              </div>
+              <div class="created_date">
+                <i class="fa fa-thin fa-calendar"></i><strong>2022/12/23</strong>
+              </div>
+              <div class="address">
+                <i class="fa fa-thin fa-location-dot"></i
+                ><strong>New Baneswor, Kathmandu</strong>
+              </div>
+              <div class="payment_amount">
+                <i class="fa fa-light fa-indian-rupee-sign"></i>
+                <strong>400</strong>
+              </div>
+              <div class="payment_method">
+                <i class="fa fa-thin fa-money-check-dollar"></i>
+                <strong>Khalti</strong>
+              </div>
+              <button class="collect">Collect Order</button>
+              <div class="trash">
+                <i class="fa fa-light fa-trash-can" id="delete"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="order" id="order_id">
+          <div class="order_type"><h1>Kitchen Waste Order</h1></div>
+    
+          <div class="content">
+            <div class="left"><i class="fa fa-thin fa-recycle"></i></div>
+            <div class="right">
+              <div class="created_by">
+                <i class="fa fa-thin fa-user"></i><strong>Subas Subedi</strong>
+              </div>
+              <div class="created_date">
+                <i class="fa fa-thin fa-calendar"></i><strong>2022/12/23</strong>
+              </div>
+              <div class="address">
+                <i class="fa fa-thin fa-location-dot"></i
+                ><strong>New Baneswor, Kathmandu</strong>
+              </div>
+              <div class="payment_amount">
+                <i class="fa fa-light fa-indian-rupee-sign"></i>
+                <strong>400</strong>
+              </div>
+              <div class="payment_method">
+                <i class="fa fa-thin fa-money-check-dollar"></i>
+                <strong>Khalti</strong>
+              </div>
+              <button class="collect">Collect Order</button>
+              <div class="trash">
+                <i class="fa fa-light fa-trash-can" id="delete"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="order" id="order_id">
+          <div class="order_type"><h1>Kitchen Waste Order</h1></div>
+    
+          <div class="content">
+            <div class="left"><i class="fa fa-thin fa-recycle"></i></div>
+            <div class="right">
+              <div class="created_by">
+                <i class="fa fa-thin fa-user"></i><strong>Subas Subedi</strong>
+              </div>
+              <div class="created_date">
+                <i class="fa fa-thin fa-calendar"></i><strong>2022/12/23</strong>
+              </div>
+              <div class="address">
+                <i class="fa fa-thin fa-location-dot"></i
+                ><strong>New Baneswor, Kathmandu</strong>
+              </div>
+              <div class="payment_amount">
+                <i class="fa fa-light fa-indian-rupee-sign"></i>
+                <strong>400</strong>
+              </div>
+              <div class="payment_method">
+                <i class="fa fa-thin fa-money-check-dollar"></i>
+                <strong>Khalti</strong>
+              </div>
+              <button class="collect">Collect Order</button>
+              <div class="trash">
+                <i class="fa fa-light fa-trash-can" id="delete"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="order" id="order_id">
+          <div class="order_type"><h1>Kitchen Waste Order</h1></div>
+    
+          <div class="content">
+            <div class="left"><i class="fa fa-thin fa-recycle"></i></div>
+            <div class="right">
+              <div class="created_by">
+                <i class="fa fa-thin fa-user"></i><strong>Subas Subedi</strong>
+              </div>
+              <div class="created_date">
+                <i class="fa fa-thin fa-calendar"></i><strong>2022/12/23</strong>
+              </div>
+              <div class="address">
+                <i class="fa fa-thin fa-location-dot"></i
+                ><strong>New Baneswor, Kathmandu</strong>
+              </div>
+              <div class="payment_amount">
+                <i class="fa fa-light fa-indian-rupee-sign"></i>
+                <strong>400</strong>
+              </div>
+              <div class="payment_method">
+                <i class="fa fa-thin fa-money-check-dollar"></i>
+                <strong>Khalti</strong>
+              </div>
+              <button class="collect">Collect Order</button>
+              <div class="trash">
+                <i class="fa fa-light fa-trash-can" id="delete"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="order" id="order_id">
+          <div class="order_type"><h1>Kitchen Waste Order</h1></div>
+    
+          <div class="content">
+            <div class="left"><i class="fa fa-thin fa-recycle"></i></div>
+            <div class="right">
+              <div class="created_by">
+                <i class="fa fa-thin fa-user"></i><strong>Subas Subedi</strong>
+              </div>
+              <div class="created_date">
+                <i class="fa fa-thin fa-calendar"></i><strong>2022/12/23</strong>
+              </div>
+              <div class="address">
+                <i class="fa fa-thin fa-location-dot"></i
+                ><strong>New Baneswor, Kathmandu</strong>
+              </div>
+              <div class="payment_amount">
+                <i class="fa fa-light fa-indian-rupee-sign"></i>
+                <strong>400</strong>
+              </div>
+              <div class="payment_method">
+                <i class="fa fa-thin fa-money-check-dollar"></i>
+                <strong>Khalti</strong>
+              </div>
+              <button class="collect">Collect Order</button>
+              <div class="trash">
+                <i class="fa fa-light fa-trash-can" id="delete"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="order" id="order_id">
+          <div class="order_type"><h1>Kitchen Waste Order</h1></div>
+    
+          <div class="content">
+            <div class="left"><i class="fa fa-thin fa-recycle"></i></div>
+            <div class="right">
+              <div class="created_by">
+                <i class="fa fa-thin fa-user"></i><strong>Subas Subedi</strong>
+              </div>
+              <div class="created_date">
+                <i class="fa fa-thin fa-calendar"></i><strong>2022/12/23</strong>
+              </div>
+              <div class="address">
+                <i class="fa fa-thin fa-location-dot"></i
+                ><strong>New Baneswor, Kathmandu</strong>
+              </div>
+              <div class="payment_amount">
+                <i class="fa fa-light fa-indian-rupee-sign"></i>
+                <strong>400</strong>
+              </div>
+              <div class="payment_method">
+                <i class="fa fa-thin fa-money-check-dollar"></i>
+                <strong>Khalti</strong>
+              </div>
+              <button class="collect">Collect Order</button>
+              <div class="trash">
+                <i class="fa fa-light fa-trash-can" id="delete"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="order" id="order_id">
+          <div class="order_type"><h1>Kitchen Waste Order</h1></div>
+    
+          <div class="content">
+            <div class="left"><i class="fa fa-thin fa-recycle"></i></div>
+            <div class="right">
+              <div class="created_by">
+                <i class="fa fa-thin fa-user"></i><strong>Subas Subedi</strong>
+              </div>
+              <div class="created_date">
+                <i class="fa fa-thin fa-calendar"></i><strong>2022/12/23</strong>
+              </div>
+              <div class="address">
+                <i class="fa fa-thin fa-location-dot"></i
+                ><strong>New Baneswor, Kathmandu</strong>
+              </div>
+              <div class="payment_amount">
+                <i class="fa fa-light fa-indian-rupee-sign"></i>
+                <strong>400</strong>
+              </div>
+              <div class="payment_method">
+                <i class="fa fa-thin fa-money-check-dollar"></i>
+                <strong>Khalti</strong>
+              </div>
+              <button class="collect">Collect Order</button>
+              <div class="trash">
+                <i class="fa fa-light fa-trash-can" id="delete"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer id="footer">
+        <footer class="footer-distributed">
+            <div class="footer-inside">
+                <div class="footer-center">
+                    <div class="footer-center-wrapper">
+                        <div><span>Policy</span>
+                            <ul>
+                                <li>Return Policy</li>
+                                <li>Terms Of use</li>
+                                <li>Security</li>
+                                <li>Privacy</li>
+                                <li>Sitemap</li>
+                                <li>Faq</li>
+                            </ul>
+                        </div>
+                        <div><span>Policy</span>
+                            <ul>
+                                <li>Return Policy</li>
+                                <li>Terms Of use</li>
+                                <li>Security</li>
+                                <li>Privacy</li>
+                                <li>Sitemap</li>
+                                <li>Faq</li>
+                            </ul>
+                        </div>
+                        <div><span>Help</span>
+                            <ul>
+                                <li>Return Policy</li>
+                                <li>Terms Of use</li>
+                                <li>Security</li>
+                                <li>Privacy</li>
+                                <li>Sitemap</li>
+                                <li>Faq</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="footer-right">
+                    <p class="footer-company-about">
+                        <span>About the company</span> Garbage collection consectetur adipisicing elit. Eveniet nam ea commodi expedita? Architecto iure
+                        natus, nesciunt dolorem alias sint dolor in cumque ducimus quisquam numquam similique incidunt ipsam repudiandae?
+                    </p>
+                    <div class="footer-icons">
+                        <a href="#" data-toggle="tooltip" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" data-toggle="tooltip" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" data-toggle="tooltip" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" data-toggle="tooltip" title="Github"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </footer>
+    </footer>
+</body>
+<script src="../resources/js/order.js"></script>
+<script src="../resources/js/splashScreen.js"></script>
+</html>

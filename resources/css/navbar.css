@@ -1,0 +1,124 @@
+section#navbar{
+    padding: 0 10em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999999;
+    height: 70px;
+    box-shadow: 0 2.5px 5px #dddd;
+}
+
+.navbar-brand{
+    width: max-content;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    width: 50px;
+  }
+
+.navbar-brand p{
+    font-weight: 500;
+}
+
+  .nav {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .nav-item {
+    padding: 1rem 1rem;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.1s;
+  }
+
+  .nav-item a{
+    color: black;
+    text-decoration: none;
+  }
+  .nav-item:hover {
+    font-weight: 500;
+    color: #112D4E;
+  }
+
+  .nav-button-group {
+    min-width: 140px;
+    text-align: center;
+    padding: 0.8rem 1rem;
+    border: none;
+    background-color: #3F72AF;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0.2rem;
+    transition: 0.2s ease;
+  }
+
+  .nav-button-group:hover {
+    background-color: #365f92;
+  }
+
+  .auth-section button {
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .vertical-seperator {
+    border: 1px solid #fff;
+    margin-right: 0.5rem;
+  }
+
+  .hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+  }
+
+  .close-menu {
+    display: none;
+  }
+
+  @media (max-width: 900px) {
+    .navbar {
+      position: relative;
+    }
+
+    .hamburger {
+      display: block;
+    }
+
+    .nav {
+      transform: translateX(100%);
+    }
+
+    .navbar .nav {
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      background-color: lightblue;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .navbar .nav-item {
+      color: #000;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .wrapper section#navbar{
+        display: flex;
+        justify-content: center;
+        gap: 0 10px;
+    }
+  }
